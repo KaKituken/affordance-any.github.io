@@ -85,11 +85,11 @@
           <h1 class="title is-1 publication-title">Affordance-Aware Object Insertion via Mask-Aware Dual Diffusion</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://kakituken.github.io/home/">Jixuan He<sup>*</sup></a><sup>1</sup>,</span>
+              <a href="https://kakituken.github.io/home/">Jixuan He<sup>*</sup></a><sup>1,2</sup>,</span>
             <span class="author-block">
               <a href="https://li-wanhua.github.io/">Wanhua Li<sup>*</sup></a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://yeliu.dev/">Ye Liu</a><sup>3</sup>,
+              <a href="https://yeliu.dev/">Ye Liu</a><sup>2,3</sup>,
             </span>
             <span class="author-block">
               <a href="https://sites.google.com/site/jskimcv/">Junsik Kim</a><sup>2</sup>,
@@ -163,8 +163,10 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img id="teaser" src="./static/images/teaser.png">
-      </img>
+      <!-- <img id="teaser" src="./static/images/teaser.png"> -->
+      <video autoplay controls muted loop playsinline height="100%">
+        <source src="./static/videos/video_demo.mp4">
+      </video>
       <h2 class="subtitle has-text-centered">
         <span class="dnerf">Madd</span> performs affordance-aware object insertion conditioning on different position prompts, including points, bounding boxes, masks, and even null prompts.
       </h2>
@@ -263,11 +265,9 @@
     <!-- Paper video. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Video</h2>
-        <div class="publication-video">
-          <video controls muted loop playsinline height="100%">
-            <source src="./static/videos/video_demo.mp4">
-          </video>
+        <h2 class="title is-3">Affordance-aware Insertion</h2>
+        <div class="">
+           <img id="teaser" src="./static/images/teaser.png">
         </div>
       </div>
     </div>
@@ -309,7 +309,7 @@
     <!-- Animation. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Affordance Insertion</h2>
+        <h2 class="title is-3">More Visualization</h2>
 
         <!-- Interpolating. -->
         <h3 class="title is-4">SAM-FB Test Set</h3>
@@ -346,7 +346,7 @@
 
 
     <!-- Concurrent Work. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Works</h2>
 
@@ -363,7 +363,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Concurrent Work. -->
 
   </div>
